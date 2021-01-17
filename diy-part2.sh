@@ -1,6 +1,6 @@
 #!/bin/bash
 # 修改默认主机名
-sed -i 's/OpenWrt/newifi3/g' ./package/base-files/files/bin/config_generate
+sed -i 's/OpenWrt/Newifi3/g' ./package/base-files/files/bin/config_generate
 
 # 修改默认管理IP
 sed -i 's/192.168.1.1/192.168.99.1/g' ./package/base-files/files/bin/config_generate
